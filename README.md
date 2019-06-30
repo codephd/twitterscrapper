@@ -1,2 +1,3 @@
-# twitterscrapper
-A generic python scrapper for Twitter
+# Description
+This is the data for the daily values of the public sentiment scores (positive and negative) for each of the 11 sectorial indices and the NIFTY50, as expressed on the Twitter. The Twitter data has been scrapped from the Twitter website. Only the tweets about the companies that are a part of the Nifty50 (the National index consisting of the top 50 companies listed in the National Stock Exchange (NSE), India) or the 11 sectorial indices of the Indian economy (Nifty Auto, Nifty Pharma, Nifty Bank, Nifty PSU Bank, Nifty Private Bank, Nifty Financial Services, Nifty Realty, Nifty FMCG, Nifty Media, Nifty Metals, Nifty IT), have been considered. The data was collected for 144 Indian listed companies (some companies were common across the sectors and 30 U.S. companies (constituents of DJIA). The sentiment analysis of the Twitter messages is done using VADER (Valence Aware Dictionary and sEntiment Reasoner) - a parsimonious rule based, human validated sentiment analysis method. The sample period is of 7 months (i.e. 2, April 2018 to 9, Nov 2018).
+
